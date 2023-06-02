@@ -1,0 +1,21 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "To Do Plugin",
+  "name_for_model": "todo",
+  "description_for_human": "Manage ToDo List",
+  "description_for_modal": "Plugin for managing a ToDo Lits for ChatGPT. You can add, remover and edit items",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "http://localhost:3000/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "http://localhost:3000/logo.png",
+  "contact_email": "farialis09@gmail.com",
+  "legal_info_url": "https://midu.dev/legal"
+
+
+
+}
